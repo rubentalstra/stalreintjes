@@ -160,22 +160,22 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                         <form action="" method="post">
                             <div class="form-group row">
                                 <div class="col-md-6 mb-4 mb-lg-0">
-                                    <input type="text" class="form-control" placeholder="First name" name="firstname">
+                                    <input type="text" class="form-control" placeholder="Voornaam" name="firstname">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Last name" name="lastname">
+                                    <input type="text" class="form-control" placeholder="Achternaam" name="lastname">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" placeholder="Email address" name="email">
+                                    <input type="text" class="form-control" placeholder="E-mailadres" name="email">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <textarea name="message" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                                    <textarea name="message" id="" class="form-control" placeholder="Schrijf uw bericht." cols="30" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
