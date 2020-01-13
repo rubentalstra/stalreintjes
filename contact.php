@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 			</html>
 		";
 
-		$headers = 	'From: Contact pagina <contact@stalreintjes.nl>' . "\r\n" .
+		$headers = 	'From: Contact <contact@stalreintjes.nl>' . "\r\n" .
     				"Reply-To: $email" . "\r\n" .
     				"MIME-Version: 1.0\r\n" . 
 					"Content-Type: text/html; charset=iso-8859-1\r\n";
