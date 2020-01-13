@@ -1,4 +1,69 @@
-<!DOCTYPE html>
+<?php
+if ($_SERVER['REQUEST_METHOD'] === "POST") {
+
+	if (empty($_POST['firstname'])) {
+		$firstnameError = 'u heeft geen naam ingevuld';
+	} else {
+		$firstname = $_POST['firstname'];
+	}
+	
+	if (empty($_POST['email'])) {
+		$emailError = 'Er is geen e-mailadres ingevuld';
+	} else {
+		$email = $_POST['email'];
+
+		// validating the email
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+			$emailError = 'Geen geldig e-mailadres';
+		}
+	}
+	
+	if (empty($_POST['message'])) {
+		$messageError = 'er is geen bericht ingevuld';
+	} else {
+		$message = $_POST['message'];
+	}
+	
+    $lastname = $_POST['lastname'];
+	
+	if (empty($emailError) && empty($messageError) && empty($firstnameError)) {
+		$date = date('j, F Y h:i A');
+
+		$emailBody = "
+			<html>
+			<head>
+				<title>$email is contacting you</title>
+			</head>
+			<body style=\"background-color:#fafafa;\">
+				<div style=\"padding:20px;\">
+					Date: <span style=\"color:#888\">$date</span>
+					<br>
+					Email: <span style=\"color:#888\">$firstname</span>
+					<br>
+					Email: <span style=\"color:#888\">$lastname</span>
+					<br>
+					Email: <span style=\"color:#888\">$email</span>
+					<br>
+					Message: <div style=\"color:#888\">$message</div>
+				</div>
+			</body>
+			</html>
+		";
+
+		$headers = 	'From: Contact Form <contact@mydomain.com>' . "\r\n" .
+    				"Reply-To: $email" . "\r\n" .
+    				"MIME-Version: 1.0\r\n" . 
+					"Content-Type: text/html; charset=iso-8859-1\r\n";
+
+		$to = 'rubentalstra1211@outlook.com';
+		$subject = 'Contacting you';
+
+		if (mail($to, $subject, $emailBody, $headers)) {
+			$sent = true;	
+		}
+	}
+}
+?>
 <html lang="nl">
 
 <head>
@@ -92,7 +157,7 @@
 
                 <div class="row">
                     <div class="col-lg-8 mb-5">
-                         <form action="" method="post">
+                        <form action="" method="post">
                             <div class="form-group row">
                                 <div class="col-md-6 mb-4 mb-lg-0">
                                     <input type="text" class="form-control" placeholder="First name" name="firstname">
@@ -120,6 +185,23 @@
                             </div>
                         </form>
 						
+						<?php if (isset($emailError) || isset($messageError)) : ?> 
+	<div id="error-message">
+		<?php 
+		    echo isset($firstnameError) ? $firstnameError . '<br>' : ''; 
+			echo isset($emailError) ? $emailError . '<br>' : ''; 
+			echo isset($messageError) ? $messageError . '<br>' : '';
+		
+		?>
+	</div>
+<?php endif; ?>
+
+
+<?php if (isset($sent) && $sent === true) : ?> 
+	<div id="done-message">
+		Uw bericht is succesvol verstuurd.
+	</div>
+<?php endif; ?>
 						
                     </div>
                     <div class="col-lg-4 ml-auto">
