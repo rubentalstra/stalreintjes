@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                                 <li><a href="about.html" class="nav-link">Over Ons</a></li>
                                 <li><a href="blog.html" class="nav-link">Blog</a></li>
-                                <li class="active"><a href="contact.html" class="nav-link">Contact</a></li>
+                                <li class="active"><a href="contact.php" class="nav-link">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                         <form action="" method="post">
                             <div class="form-group row">
                                 <div class="col-md-6 mb-4 mb-lg-0">
-                                    <input type="text" class="form-control" placeholder="Voornaam" name="firstname">
+                                    <input type="text" class="form-control" placeholder="Voornaam*" name="firstname">
                                 </div>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" placeholder="Achternaam" name="lastname">
@@ -169,13 +169,13 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" placeholder="E-mailadres" name="email">
+                                    <input type="text" class="form-control" placeholder="E-mailadres*" name="email">
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col-md-12">
-                                    <textarea name="message" id="" class="form-control" placeholder="Schrijf uw bericht." cols="30" rows="10"></textarea>
+                                    <textarea name="message" id="" class="form-control" placeholder="Schrijf uw bericht*" cols="30" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
