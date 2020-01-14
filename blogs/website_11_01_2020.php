@@ -6,6 +6,7 @@
 	<meta name="description" content="150 words"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="../images/stalreintjes.ico" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
 

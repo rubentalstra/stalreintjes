@@ -1629,6 +1629,9 @@ h1, h2, h3, h4, h5,
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   max-width: 500px; }
+@media (max-width: 640px) {
+    .box-92819 {
+      max-width: auto;} }
 
 .media-02819 {
   margin-bottom: 60px; }

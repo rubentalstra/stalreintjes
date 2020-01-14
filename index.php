@@ -80,20 +80,20 @@
                 <div class="owl-carousel slide-one-item-alt-text">
 
                     <div>
-                        <h1 class="text-uppercase mb-3">iets leuks hier neer zetten</h1>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus harum, error minima?</p>
+                        <h1 class="text-uppercase mb-3">iets leuks </h1>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur </p>
                         <p class="mb-0"><a href="#" class="btn btn-primary rounded-0">Lees meer</a></p>
                     </div>
 
                     <div>
-                        <h1 class="text-uppercase mb-3">iets leuks hier neer zetten</h1>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deleniti similique, nesciunt.</p>
+                        <h1 class="text-uppercase mb-3">iets leuks </h1>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p class="mb-0"><a href="#" class="btn btn-primary rounded-0">Lees meer</a></p>
                     </div>
 
                     <div>
-                        <h1 class="text-uppercase mb-3">iets leuks hier neer zetten</h1>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, autem odit quae!</p>
+                        <h1 class="text-uppercase mb-3">iets leuks </h1>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p class="mb-0"><a href="#" class="btn btn-primary rounded-0">Lees meer</a></p>
                     </div>
 
