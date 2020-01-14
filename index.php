@@ -176,10 +176,10 @@
 
                             <div class="post-entry-1-contents">
                                 <span class="meta">11 januarie, 2020</span>
-                                <a href="blog/website_11_01_2020"><img src="images/milou_en_isabel.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="blogs/website_11_01_2020"><img src="images/milou_en_isabel.jpg" alt="Image" class="img-fluid"></a>
                                 <p></p>
-                                <h2><a href="blog/website_11_01_2020.php">De website XD</a></h2>
-                                <p class="my-3"><a href="blog/website_11_01_2020" class="more-39291">Lees Meer</a></p>
+                                <h2><a href="blogs/website_11_01_2020">De website XD</a></h2>
+                                <p class="my-3"><a href="blogs/website_11_01_2020" class="more-39291">Lees Meer</a></p>
                             </div>
                         </div>
                     </div>
