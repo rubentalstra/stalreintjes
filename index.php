@@ -125,6 +125,8 @@
                     <div class="col-lg-8">
                         <div class="owl-carousel owl-3">
                             <img src="images/milou_en_isabel.jpg" alt="Image" class="img-fluid">
+							<img src="images/isabel_elvis_rijden.jpg" alt="Image" class="img-fluid">
+							<img src="images/milou-jade.jpg" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
