@@ -44,15 +44,15 @@
                     <div class="col-lg-4">
                         <nav class="site-navigation text-right ml-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                                <li><a href="../index.php" class="nav-link">Home</a></li>
-                                <li><a href="../paarden.php" class="nav-link">Paarden</a></li>
-                                <li><a href="../services.php" class="nav-link">Tarieven</a></li>
+                                <li><a href="../index" class="nav-link">Home</a></li>
+                                <li><a href="../paarden" class="nav-link">Paarden</a></li>
+                                <li><a href="../services" class="nav-link">Tarieven</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-lg-4 text-center">
                         <div class="site-logo">
-                            <a href="../index.php">Stal Reintjes logo</a>
+                            <a href="../index">Stal Reintjes logo</a>
                         </div>
 
                         <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
@@ -60,9 +60,9 @@
                     <div class="col-lg-4">
                         <nav class="site-navigation text-left mr-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                                <li><a href="../about.php" class="nav-link">Over Ons</a></li>
-                                <li><a href="../blog.php" class="nav-link">Blog</a></li>
-                                <li><a href="../contact.php" class="nav-link">Contact</a></li>
+                                <li><a href="../about" class="nav-link">Over Ons</a></li>
+                                <li><a href="../blog" class="nav-link">Blog</a></li>
+                                <li><a href="../contact" class="nav-link">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -158,7 +158,7 @@
 
                         <ul>
                             <li>By email: info@yourdomain.com</li>
-                            <li>By visiting this page on our website: <a href="../contact.html">contact pagina</a></li>
+                            <li>By visiting this page on our website: <a href="../contact">contact pagina</a></li>
                         </ul>
 
                     </div>
@@ -179,11 +179,11 @@
                             <div class="col-md-4 ml-auto">
                                 <h2 class="footer-heading mb-4">Features</h2>
                                 <ul class="list-unstyled">
-                                    <li><a href="../about.php">Over Ons</a></li>
-                                    <li><a href="../paarden.php">Paarden</a></li>
-                                    <li><a href="terms_of_service.php">Terms of Service</a></li>
-                                    <li><a href="privacy.php">Privacy</a></li>
-                                    <li><a href="../contact.html">Contacteer ons</a></li>
+                                    <li><a href="../about">Over Ons</a></li>
+                                    <li><a href="../paarden">Paarden</a></li>
+                                    <li><a href="terms_of_service">Terms of Service</a></li>
+                                    <li><a href="privacy">Privacy</a></li>
+                                    <li><a href="../contact">Contacteer ons</a></li>
                                 </ul>
                             </div>
 

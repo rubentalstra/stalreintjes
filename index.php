@@ -44,15 +44,15 @@
                     <div class="col-lg-4">
                         <nav class="site-navigation text-right ml-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                                <li class="active"><a href="index.php" class="nav-link">Home</a></li>
-                                <li><a href="paarden.php" class="nav-link">Paarden</a></li>
-                                <li><a href="services.php" class="nav-link">Tarieven</a></li>
+                                <li class="active"><a href="index" class="nav-link">Home</a></li>
+                                <li><a href="paarden" class="nav-link">Paarden</a></li>
+                                <li><a href="services" class="nav-link">Tarieven</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-lg-4 text-center">
                         <div class="site-logo">
-                            <a href="index.php">Stal Reintjes logo</a>
+                            <a href="index">Stal Reintjes logo</a>
                         </div>
 
                         <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
@@ -60,9 +60,9 @@
                     <div class="col-lg-4">
                         <nav class="site-navigation text-left mr-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                                <li><a href="about.php" class="nav-link">Over Ons</a></li>
-                                <li><a href="blog.php" class="nav-link">Blog</a></li>
-                                <li><a href="contact.php" class="nav-link">Contact</a></li>
+                                <li><a href="about" class="nav-link">Over Ons</a></li>
+                                <li><a href="blog" class="nav-link">Blog</a></li>
+                                <li><a href="contact" class="nav-link">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -176,10 +176,10 @@
 
                             <div class="post-entry-1-contents">
                                 <span class="meta">11 januarie, 2020</span>
-                                <a href="blog/website_11_01_2020.php"><img src="images/milou_en_isabel.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="blog/website_11_01_2020"><img src="images/milou_en_isabel.jpg" alt="Image" class="img-fluid"></a>
                                 <p></p>
                                 <h2><a href="blog/website_11_01_2020.php">De website XD</a></h2>
-                                <p class="my-3"><a href="blog/website_11_01_2020.php" class="more-39291">Lees Meer</a></p>
+                                <p class="my-3"><a href="blog/website_11_01_2020" class="more-39291">Lees Meer</a></p>
                             </div>
                         </div>
                     </div>
@@ -201,11 +201,11 @@
                             <div class="col-md-4 ml-auto">
                                 <h2 class="footer-heading mb-4">Features</h2>
                                 <ul class="list-unstyled">
-                                    <li><a href="about.php">Over Ons</a></li>
-                                    <li><a href="paarden.php">Paarden</a></li>
-                                    <li><a href="terms/terms_of_service.php">Terms of Service</a></li>
-                                    <li><a href="terms/privacy.php">Privacy</a></li>
-                                    <li><a href="contact.html">Contacteer ons</a></li>
+                                    <li><a href="about">Over Ons</a></li>
+                                    <li><a href="paarden">Paarden</a></li>
+                                    <li><a href="terms/terms_of_service">Terms of Service</a></li>
+                                    <li><a href="terms/privacy">Privacy</a></li>
+                                    <li><a href="contact">Contacteer ons</a></li>
                                 </ul>
                             </div>
 
