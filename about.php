@@ -2,7 +2,7 @@
 <html lang="nl">
 
 <head>
-    <title>Stal Reintjes &mdash; Paarden</title>
+    <title>Stal Reintjes &mdash; Over ons</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -42,26 +42,26 @@
                 <div class="row align-items-center position-relative">
 
                     <div class="col-lg-4">
-                        <nav class="site-navigation text-right ml-auto" role="navigation">
+                        <nav class="site-navigation text-right ml-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                                <li><a href="index.html" class="nav-link">Home</a></li>
-                                <li class="active"><a href="paarden.html" class="nav-link">Paarden</a></li>
-                                <li><a href="services.html" class="nav-link">Tarieven</a></li>
+                                <li><a href="index.php" class="nav-link">Home</a></li>
+                                <li><a href="paarden.php" class="nav-link">Paarden</a></li>
+                                <li><a href="services.php" class="nav-link">Tarieven</a></li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-lg-4 text-center">
                         <div class="site-logo">
-                            <a href="index.html">Stal Reintjes logo</a>
+                            <a href="index.php">Stal Reintjes logo</a>
                         </div>
 
                         <div class="ml-auto toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-white"><span class="icon-menu h3 text-primary"></span></a></div>
                     </div>
                     <div class="col-lg-4">
-                        <nav class="site-navigation text-left mr-auto" role="navigation">
+                        <nav class="site-navigation text-left mr-auto " role="navigation">
                             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                                <li><a href="about.html" class="nav-link">Over Ons</a></li>
-                                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                                <li class="active"><a href="about.php" class="nav-link">Over Ons</a></li>
+                                <li><a href="blog.php" class="nav-link">Blog</a></li>
                                 <li><a href="contact.php" class="nav-link">Contact</a></li>
                             </ul>
                         </nav>
@@ -73,14 +73,42 @@
         </header>
 
         <div class="ftco-blocks-cover-1">
-            <div class="ftco-cover-1" style="background-image: url('images/milou-en_idk.jpg');">
+
+            <div class="ftco-cover-1" style="background-image: url('images/jade2.jpg');">
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-lg-12 text-center">
                             <div class="box-92819">
-                                <h1 class="text-uppercase text-black mb-3">Paarden op stal</h1>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus harum, error minima?</p>
+
+                                <h1 class="text-uppercase text-black mb-3">Over ons</h1>
+                                <p class="mb-0 text-black">een leuek spannende text of zo IDk<a href="#about" class="text-primary"> Lees meer</a></p>
                             </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="site-section">
+            <div class="container">
+                <div class="row align-items-stretch">
+                    <div class="col-lg-4">
+                        <div class="h-100 bg-white box-29291">
+                            <h2 class="heading-39291">Welkom bij <br> Stal Reintjes</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo mollitia id ea ab in! Nam eligendi distinctio, vitae.</p>
+                            <p>Alias odit ipsam quas unde obcaecati molestiae consequatur numquam cupiditate perferendis facere, nulla nemo id, accusantium corrupti tempora.</p>
+
+                            <p class="mt-5">
+                                <span class="d-block font-weight-bold text-black">Isabel en Milou Reintjes</span>
+                                <span class="d-block font-weight-bold text-muted">:)</span>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="owl-carousel owl-3">
+                            <img src="images/milou_en_isabel.jpg" alt="Image" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -89,38 +117,18 @@
 
         <div class="site-section">
             <div class="container">
-
                 <div class="row">
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="">
-                        <div class="media-02819">
-                            <a class="img-link small"><img src="images/jade2.jpg" alt="Image" class="img-fluid"></a>
-                            <h3><a >Jade</a></h3>
-                            <span>een leuk textje</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="media-02819">
-                            <a class="img-link"><img src="images/elvis2.jpg" alt="Image" class="img-fluid"></a>
-                            <h3><a >Elvis</a></h3>
-                            <span>een leuk textje</span>
-                        </div>
+                    <div class="col-md-5">
+                        <h2 class="heading-39291">Bedrijfs verhaal of zo</h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, consequuntur, harum? Culpa, iure vel fugiat veritatis obcaecati architecto.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut at quisquam, perferendis dolores fuga nulla ratione eveniet ipsam, blanditiis repellendus porro. Voluptatem tempore ratione ut ipsa et deleniti!</p>
+                        <p>Veniam officiis ad doloribus nostrum, id, excepturi. Quam aliquam, explicabo non dolorem eveniet similique! Veritatis necessitatibus ipsa eligendi distinctio suscipit magnam quos itaque, numquam sequi. Ipsa eveniet consectetur deleniti.</p>
+                        <p>Enim laudantium, perferendis distinctio! Natus ex, ad quisquam nemo inventore, saepe eveniet temporibus debitis magni ea. Corporis illo necessitatibus, error laboriosam voluptatum nostrum id at adipisci repellendus, quod explicabo?</p>
                     </div>
 
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="">
-                        <div class="media-02819">
-                            <a class="img-link small"><img src="images/malinka.jpg" alt="Image" class="img-fluid"></a>
-                            <h3><a >Malinke</a></h3>
-                            <span>een leuk textje</span>
-                        </div>
+                    <div class="col-md-6 ml-auto">
+                        <img src="images/paarden.jpg" alt="Image" class="img-fluid">
                     </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="media-02819">
-                            <a class="img-link"><img src="" alt="Image" class="img-fluid"></a>
-                            <h3><a >Impresa</a></h3>
-                            <span>een leuk textje</span>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -138,10 +146,10 @@
                             <div class="col-md-4 ml-auto">
                                 <h2 class="footer-heading mb-4">Features</h2>
                                 <ul class="list-unstyled">
-                                    <li><a href="about.html">Over Ons</a></li>
-                                    <li><a href="paarden.html">Paarden</a></li>
-                                    <li><a href="terms/terms_of_service.html">Terms of Service</a></li>
-                                    <li><a href="terms/privacy.html">Privacy</a></li>
+                                    <li><a href="about.php">Over Ons</a></li>
+                                    <li><a href="paarden.php">Paarden</a></li>
+                                    <li><a href="terms/terms_of_service.php">Terms of Service</a></li>
+                                    <li><a href="terms/privacy.php">Privacy</a></li>
                                     <li><a href="contact.html">Contacteer ons</a></li>
                                 </ul>
                             </div>
@@ -186,6 +194,7 @@
     <script src="js/aos.js"></script>
 
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
