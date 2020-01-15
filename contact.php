@@ -2,24 +2,36 @@
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 	if (empty($_POST['firstname'])) {
-		$firstnameError = 'u heeft geen naam ingevuld';
+		$firstnameError = '<div id="done-message" class="alert warning">
+  <span class="closebtn">&times;</span>  
+  <strong>Hu!</strong> u heeft geen naam ingevuld
+</div>';
 	} else {
 		$firstname = $_POST['firstname'];
 	}
 	
 	if (empty($_POST['email'])) {
-		$emailError = 'Er is geen e-mailadres ingevuld';
+		$emailError = '<div id="done-message" class="alert warning">
+  <span class="closebtn">&times;</span>  
+  <strong>Hu!</strong> Er is geen e-mailadres ingevuld
+</div>';
 	} else {
 		$email = $_POST['email'];
 
 		// validating the email
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			$emailError = 'Geen geldig e-mailadres';
+			$emailError = '<div id="done-message" class="alert">
+  <span class="closebtn">&times;</span>  
+  <strong>let op!</strong> Geen geldig e-mailadres
+</div>';
 		}
 	}
 	
 	if (empty($_POST['message'])) {
-		$messageError = 'er is geen bericht ingevuld';
+		$messageError = '<div id="done-message" class="alert warning">
+  <span class="closebtn">&times;</span>  
+  <strong>Hu!</strong> er is geen bericht ingevuld
+</div>';
 	} else {
 		$message = $_POST['message'];
 	}
@@ -38,13 +50,12 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 				<div style=\"padding:20px;\">
 					Datum: <span style=\"color:#888\">$date</span>
 					<br>
-					Voornaam: <span style=\"color:#888\">$firstname</span>
-					<br>
-					Achternaam: <span style=\"color:#888\">$lastname</span>
+					Naam: <span style=\"color:#888\">$firstname $lastname</span>
 					<br>
 					E-mailadres: <span style=\"color:#888\">$email</span>
 					<br>
-					Bericht: <div style=\"color:#888\">$message</div>
+					Bericht: 
+					<div style=\"color:#888\">$message</div>
 				</div>
 			</body>
 			</html>
@@ -88,6 +99,36 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+	
+<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -190,9 +231,9 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 						<?php if (isset($emailError) || isset($messageError)) : ?> 
 	<div id="error-message">
 		<?php 
-		    echo isset($firstnameError) ? $firstnameError . '<br>' : ''; 
-			echo isset($emailError) ? $emailError . '<br>' : ''; 
-			echo isset($messageError) ? $messageError . '<br>' : '';
+		    echo isset($firstnameError) ? $firstnameError . '' : ''; 
+			echo isset($emailError) ? $emailError . '' : ''; 
+			echo isset($messageError) ? $messageError . '' : '';
 		
 		?>
 	</div>
@@ -200,9 +241,10 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
 
 <?php if (isset($sent) && $sent === true) : ?> 
-	<div id="done-message">
-		Uw bericht is succesvol verstuurd.
-	</div>
+<div id="done-message" class="alert success">
+  <span class="closebtn">&times;</span>  
+  <strong>Bedankt!</strong> Uw bericht is succesvol verstuurd.
+</div>
 <?php endif; ?>
 						
                     </div>
@@ -300,6 +342,20 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
     </div>
 
+	
+	<script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
+	
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
