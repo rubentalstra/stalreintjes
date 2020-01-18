@@ -155,7 +155,7 @@
                                 Copyright &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> All rights reserved | Made with <span style="color: #e25555;">&#9829;</span> by <a href="">Ruben Talstra</a>
+                                </script> All rights reserved | Made with <span style="color: #e25555;">&#9829;</span> by <a href="https://www.rubentalstra.nl" target="_blank">Ruben Talstra</a>
                             </p>
                         </div>
                     </div>
