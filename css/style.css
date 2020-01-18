@@ -1631,7 +1631,7 @@ h1, h2, h3, h4, h5,
   max-width: 500px; }
 @media (max-width: 640px) {
     .box-92819 {
-      max-width: auto;} }
+      max-width: 100%;} }
 
 .media-02819 {
   margin-bottom: 60px; }
