@@ -111,7 +111,13 @@
                         <p>Egestas quis ipsum suspendisse ultrices gravida dictum. Luctus accumsan tortor posuere ac ut. Volutpat est velit egestas dui id. Dictum non consectetur a erat. Et ligula ullamcorper malesuada proin. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Volutpat consequat mauris nunc congue nisi vitae suscipit.</p>
 
                         <p>Imperdiet nulla malesuada pellentesque elit eget gravida. Morbi tempus iaculis urna id volutpat lacus laoreet non. Risus pretium quam vulputate dignissim suspendisse in est ante. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Morbi leo urna molestie at elementum.</p>
-
+                    <div class="col-lg-8">
+                        <div class="owl-carousel owl-3">
+                            <img src="../images/milou_en_isabel.jpg" alt="Image" class="img-fluid">
+							<img src="../images/isabel_elvis_rijden.jpg" alt="Image" class="img-fluid">
+							<img src="../images/milou-jade.jpg" alt="Image" class="img-fluid">
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
